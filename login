@@ -1,41 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial- scale=1.0">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-   <title>Login Page</title>
-   <div class="row alinf-items-center h-100">
-        <div class="col-8 col-md-3 col-xs-8 mx-auto l_form">
-            <form action="form" method="post">
-                <img class="row mx-auto" src="https://i.imgur.com/RhJpe7c.png" width="150">
-                <div class="form-group ">
-                    <input type="text" placeholder="Matricula" class="form-control i-form">
-                </div>
-                <div class="form-group">
-                    <input type="password" placeholder="Password" class="form-control i-form">
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-dark btn-md btn-block">Login</button>
-                </div>
-            </form>
-        </div>
-   </div>
-   <div>
-     echo "# AudioVisual" >> README.md
-    git init
-    git add README.md
-    git commit -m "first commit"
-    git branch -M main
-    git remote add origin https://github.com/xcc90/AudioVisual.git
-    git push -u origin main
-    </div>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Login</title>
+   
 </head>
 <body>
-    <style >
-       
-     </style>
+    <div id="login">
+        <form class="card">
+            <div class="card-header">
+
+                <h2>Login</h2>
+
+            </div>
+            <div class="card-content">
+                <div class="card-content-area">
+                    <label for="usuario">Usuário</label>
+
+                    <input type="text" id="usuario" autocomplete="off">
+                </div>
+
+                <div class="card-content-area">
+
+                    <label for="password">Sanha</label>
+                    <input type="password" id="password" autocomplete="off">
+                </div>
+            </div>
+
+            <div class="card-footer">
+
+                <input type="submit" value="login" class="submit">
+
+                <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
+
 
